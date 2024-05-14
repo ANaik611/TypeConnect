@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+    #map
+    {
+        width: 1500px;
+        height: 1500px;
+    }
+</style>
+
+
+
+
+
+</head>
+
+<body>
+    <div id="map"></div>
+</body>
+    <script>
+
+    const map=L.map('map');
+    map.setView([15.4768,73.8237], 14);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([15.46378,73.85846],
+{
+    title: "GMC BLOOD BANK",
+})
+.bindPopup('<h2>GMC BLOOD BANK</h2>contact details:<a href="tel:09420920890">09420920890</a><br><a href="http://www.gmc.goa.gov.in/index.php/en/utility/blood-bank/47-goa-medical-college-blood-bank-blood-stocks">website</a></h3>')
+.addTo(map)
+
+L.marker([15.46023,73.81339],
+{
+    title: "MANIPAL BLOOD BANK",
+})
+.bindPopup('<h2>MANIPAL BLOOD BANK</h2>contact details:<a href="tel:1800 1002 5555">1800 1002 5555</a><br><a href="https://www.manipalhospitals.com/goa/contact-us/">website</a></h3>')
+.addTo(map)
+
+
+L.marker([ 15.4984550, 73.8273054],
+{
+    title: "RED CROOSS BLOOD BANK",
+})
+.bindPopup('<h2>RED CROSS BLOOD BANK</h2>contact details:<a href="tel:1800 1002 5555">1800 1002 5555</a><br><a href="http://www.redcrossgoa.org/">website</a></h3>')
+.addTo(map)
+
+
+L.marker([15.49338,73.82651],
+{
+    title: "CMM HOSPITAL",
+})
+.bindPopup('<h2>CMM BLOOD BANK</h2><a href="https://cmmgroup.in/">website</a></h3>')
+.addTo(map)
+
+
+
+
+
+    </script>
+
+
+</html>

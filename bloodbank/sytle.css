@@ -1,0 +1,258 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+header
+{
+    position: fixed;
+top: 0;
+left: 0;
+width: 90%;
+padding: 13px 100px;
+background-color: goldenrod;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index:99;
+}
+.logo{
+    font-size: 2.2em;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font weight: 500;
+    margin-left: 10px;
+}
+.navigation a::after{
+    content: ' ';
+   position: absolute;
+   left: 0;
+   bottom: -7px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform .5s;
+
+}
+
+.navigation a:hover::after{
+    transform: scalex(1);
+}
+
+.navigation .btnLoginpopup
+{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font: size 1.1em;
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+.navigation-bar {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+
+}
+.navigation-bar a{
+    position: relative;
+    font-size: 30px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font weight: 100;
+    margin-left: 10px;
+
+}
+
+.body1
+{
+    margin:0px;
+    padding: 0px;
+}
+.backgound
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2rCqth2BtBCnWy9_l7sj5Bl-W2qEOh_Tzg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navigation-b {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    bottom: 50%;
+    left: 40%;
+    width: 90%;
+
+}
+.navigation-b a{
+    position: relative;
+    font-size: 40px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font weight: 100;
+    margin-left: 10px;
+
+}
+.navigation-b .btnLogin-popup1
+{
+    width: 250px;
+    height: 70px;
+    background: transparent;
+    border: 3px solid rgb(235, 18, 18);
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font: size 1.1em;
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+
+.wrapper
+{
+    position: relative;
+    
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .5);
+    border-radius:20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 30px 30px (0,0,0,.5);
+    display: flex;
+    align-items: center;
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn25 {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  }
+  
+
+.wrapper .form-box login{
+    
+    font-size: 2em;
+    colour: black;
+    text-align: center;
+}
+
+
+.input-box
+{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+     font-weight: 600;
+}
+
+.input-box label{
+    position:absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 2s;
+    padding: 0 35px 0 5px;
+
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label
+{
+    top: -5px;
+}
+
+.btn
+{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+
+.input-box .icon
+{
+    position: absolute;
+    right: 8px;
+    line-height: 57px;
+}
