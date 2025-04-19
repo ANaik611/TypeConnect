@@ -51,5 +51,5 @@ TypeConnect is a smart and accessible blood bank system built to modernize blood
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ANaik611/blood-bank-management-system.git
-cd blood-bank-management-system
+git clone https://github.com/ANaik611/TypeConnect.git
+cd TypeConnect
