@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA compatible"
+    context="IE=edge">
+    <meta name="viewport" context="width=device-width,intial-scale=1.0">
+    <title>
+        blood donation website
+    </title>
+    </title>
+    <link rel="stylesheet" href="sytle2.css">
+</head>
+<header>
+    
+        
+    
+<h2>ADMIN LOGIN</h2>
+</header>
+<br>
+<br>
+<br>
+<br>
+
+  <style>
+body
+    {
+        margin:0px;
+    padding: 0px;
+        width: 100%;
+    height: 100vh;
+    background-image:url("https://wallpaperaccess.com/full/6553556.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: 5px 0px;
+    }
+
+</style>
+<br>
+<br>
+<br>
+
+<center>
+
+<div class="wrapper">
+   
+    <div class="form-box login">
+        <h2>Login</h2>
+        <a href="index.php">
+        <span class="icon-close"><ion-icon name="close"></ion-icon>
+</span>
+</a>
+        <form action="adminlogin1.php" method="post">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon></span>
+                <input id ="text" type="text" name="username" required>
+                <label>username</label>
+</div>
+
+<div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon></span>
+                <input id="text" type="password" name="password" required>
+                <label>password</label>
+</div>
+
+<br>
+    <button type="submit" class="btn">Login</button>
+   
+
+</form>
+</div>
+
+</div>
+</center>
+
+
+
+
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </html>
