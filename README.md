@@ -33,7 +33,8 @@ TypeConnect is a smart and accessible blood bank system built to modernize blood
 - **Frontend:** HTML, CSS, JavaScript, React
 - **AI Model:** TensorFlow, Keras
 - **Mapping:** Leaflet API
-- **Backend (Optional):** WAMP/XAMPP for local server deployment
+- **Backend (Optional):** WAMP/XAMPP for local server deployment,PHP
+- **Database:**MySQL
 
 ---
 
